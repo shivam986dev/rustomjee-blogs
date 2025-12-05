@@ -1,0 +1,179 @@
+.mh-header {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif !important;
+}
+
+.mh-header .nav-link {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif !important;
+  font-weight: 500;
+}
+
+.mh-header .navbar-brand {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif !important;
+}
+
+/* =============================
+   RESPONSIV MEDIA START
+============================= */
+
+@media (max-width: 991px) {
+  .menu-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background: #fff;
+  }
+
+  .mh-header {
+    position: sticky;
+    top: 0 !important;
+    z-index: 99999;
+    background: #fff;
+  }
+
+  #mainMenu {
+    position: fixed;
+    top: 0;
+    left: -280px;
+    width: 260px;
+    height: 100vh;
+    background: #fff;
+    z-index: 9999;
+    padding: 70px 20px 20px;
+    transition: left 0.4s ease;
+    overflow-y: auto;
+  }
+
+  #mainMenu.show {
+    left: 0;
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: 1px solid #a3a3a3;
+    /* padding-left: 5px; */
+    text-align: center;
+}
+}
+
+@media (min-width: 992px) {
+  .mh-header {
+    position: sticky;
+    top: -74px !important;
+    z-index: 99999;
+    background: #fff;
+  }
+
+  .mobile-logo {
+    width: 70% !important;
+  }
+}
+
+/* =============================
+   RESPONSIV MEDIA END
+============================= */
+/* =============================
+   NAVBAR LINKS
+============================= */
+.nav-link {
+  font-family: "Georgia", serif;
+  cursor: pointer;
+  color: #000 !important;
+  font-size: 12px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* =============================
+   MOBILE TOGGLER (Hamburger → Cross)
+============================= */
+.mobile-toggle {
+  border: none;
+  background: none;
+  padding: 0 !important;
+  width: 35px;
+  height: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.toggler-icon {
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  display: block;
+}
+
+.mobile-toggle[aria-expanded="true"] .top-bar {
+  transform: rotate(45deg) translateY(10px);
+}
+
+.mobile-toggle[aria-expanded="true"] .middle-bar {
+  opacity: 0;
+}
+
+.mobile-toggle[aria-expanded="true"] .bottom-bar {
+  transform: rotate(-45deg) translateY(-10px);
+}
+
+/* =============================
+   DESKTOP LOGO
+============================= */
+.desktop-logo {
+  height: 50px;
+  cursor: pointer;
+}
+
+/* =============================
+   MOBILE LOGO
+============================= */
+.mobile-logo {
+  width: 65%;
+}
+
+/* =============================
+   STICKY MENU
+============================= */
+.menu-wrapper {
+  top: 0;
+}
+
+/* =============================
+   OPTIONAL CLEANING
+============================= */
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  border-top: 1px solid #f1f1f1;
+}
+
+.active-nav {
+  color: #ffffff !important;
+  font-weight: 600;
+  background-color: #000 !important;
+}
+
+@media (max-width: 991px) {}
+

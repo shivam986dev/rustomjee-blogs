@@ -1,0 +1,299 @@
+html {
+  scroll-behavior: auto !important;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #555555;
+}
+tr, td{
+  color: #555555;
+}
+a {
+  text-decoration: none;
+}
+.img_brightness{
+  filter: brightness(0.5);
+}
+/* Tabs Styling */
+.custom-tabs .nav-link {
+  color: #555;
+  border: none;
+}
+
+.custom-tabs .nav-link.active {
+  border-bottom: 3px solid #000;
+  color: #000;
+}
+
+/* Article Box */
+.article-box {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.article-box:last-child {
+  border-bottom: none;
+}
+
+.article-img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.article-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.meta {
+  font-size: 12px;
+  color: #777;
+}
+
+.sidebar {
+  top: 38px;
+}
+
+/* Big Featured Article */
+.big-article-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.big-article-title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.big-article-date {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.big-article-desc {
+  color: #444;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+/* Small Articles Grid */
+.small-article-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.small-article-title {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.small-article-date {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button.btn-outline-dark {
+  font-size: 14px;
+  padding: 6px 10px;
+  font-weight: bold;
+}
+
+.right_boxes {
+  width: 35%;
+}
+
+.article-link {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+}
+
+.article-link:hover .article-box {
+  background: #f7f7f7;
+  transition: 0.2s;
+}
+
+.article-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #000;
+  color: #fff;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 3px;
+  z-index: 10;
+}
+
+
+.card1 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #ededed;
+  padding: 10px;
+}
+
+
+.card1 {
+  transition: transform 0.4s ease;
+}
+
+.card1:hover {
+  transform: translateY(-5px);
+}
+
+.custom-tabs {
+  border: none;
+}
+
+.tab_item {
+  border: 1px solid #ddd;
+
+}
+
+.card-body {
+  margin-top: 10px;
+}
+
+.custom-tabs .nav-link {
+  border: none;
+  background: transparent;
+  color: #000;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 0;
+}
+
+.custom-tabs .nav-link:hover {
+  background: #f2f2f2;
+  border: none;
+}
+
+.custom-tabs .nav-link.active {
+  background: #f2f2f2;
+  color: #fff;
+  border: none;
+  /* font-weight: 600; */
+}
+
+.page-transition {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.page-transition.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* mannat */
+@media (max-width: 767px) {
+
+  .inner_page-title {
+    font-size: 30px !important;
+    margin: 15px 0px;
+  }
+
+  .image-fit-contain img {
+    width: 100%;
+    height: auto !important;
+    padding: 5px 0px;
+  }
+
+}
+
+.srk-banner-img {
+  border-radius: 8px;
+}
+
+.inner_page-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.srk-meta {
+  font-size: 14px;
+  color: #555;
+}
+
+.section-heading {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.image-fit-contain img {
+  width: 100%;
+  height: 500px;
+  padding: 10px 0px;
+}
+
+.add_section {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fafafa;
+  top: 60px;
+  width: 100%;
+}
+
+.logo_Add img {
+  width: 100%;
+}
+
+.add_section-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.add_section-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.add_section-list li:hover {
+  text-decoration: underline;
+}
+
+/* mannat close */
+
+.area-subtitle {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.area-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.area-btn:hover {
+  background: #222;
+  transform: translateY(-2px);
+}

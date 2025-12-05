@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rustomjee-blogs/static/css/main.d7d538ce.css",
-    "main.js": "/rustomjee-blogs/static/js/main.77d6b60f.js",
+    "main.js": "/rustomjee-blogs/static/js/main.f13da181.js",
     "static/media/pop-up-designs.png": "/rustomjee-blogs/static/media/pop-up-designs.f2d3d47b7f4d8b8797a9.png",
     "static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.png": "/rustomjee-blogs/static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.11ef2455401b5056c87d.png",
     "static/media/antilia.png": "/rustomjee-blogs/static/media/antilia.d0719948785682a58d1e.png",
@@ -31,10 +31,10 @@
     "static/media/area-calculatore-300x179.jpg": "/rustomjee-blogs/static/media/area-calculatore-300x179.9b2a4837f63eb622ecf4.jpg",
     "index.html": "/rustomjee-blogs/index.html",
     "main.d7d538ce.css.map": "/rustomjee-blogs/static/css/main.d7d538ce.css.map",
-    "main.77d6b60f.js.map": "/rustomjee-blogs/static/js/main.77d6b60f.js.map"
+    "main.f13da181.js.map": "/rustomjee-blogs/static/js/main.f13da181.js.map"
   },
   "entrypoints": [
     "static/css/main.d7d538ce.css",
-    "static/js/main.77d6b60f.js"
+    "static/js/main.f13da181.js"
   ]
 }

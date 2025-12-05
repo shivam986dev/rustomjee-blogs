@@ -121,7 +121,7 @@ function App() {
   return (
     <BrowserRouter basename="/test">
       <ScrollToTopOnRouteChange />
-      <ForceReload />
+      // <ForceReload />
       <ScrollTopButton />
 
       <LayoutWrapper>

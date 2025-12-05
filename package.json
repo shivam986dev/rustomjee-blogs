@@ -2,7 +2,7 @@
   "name": "rustomjee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shivam986dev.github.io/rustomjee",
+ "homepage": "https://shivam986dev.github.io/rustomjee-blogs",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
